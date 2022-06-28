@@ -1,0 +1,58 @@
+body{
+    background-color: aliceblue;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: gray   ;
+    opacity: .9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+ 
+ul li a{
+    text-decoration: none ;
+    color: white;
+    display: black;
+}
+
+ul li a:hover{
+    background-color: rgb(44, 48, 48);
+}
+
+ul li ul li{
+    display: none;
+}  
+
+ul li:hover ul li{
+    display: block;
+}
+
+.container{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin:  240px auto;
+}
+
+.container .box{
+    position: relative;
+    width: calc(400px-30px);
+    height: calc();
+    background: #ff0;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
